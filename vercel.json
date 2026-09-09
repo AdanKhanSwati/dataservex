@@ -1,1 +1,1 @@
-{"buildCommand":"npm run build","outputDirectory":"public","framework":null}
+{"framework":null,"installCommand":"","buildCommand":"npm run build","outputDirectory":"public"}

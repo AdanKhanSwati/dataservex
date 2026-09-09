@@ -1,1 +1,1 @@
-{"name":"dataservex-static","version":"1.0.0","private":true,"scripts":{"build":"rm -rf public && mkdir -p public && unzip -o dataservex-static-html.zip -d public"}}
+{"name":"dataservex-static","version":"1.0.0","private":true,"scripts":{"build":"rm -rf public /tmp/dataservex-static-html.zip && mkdir -p public && cat payload.* | base64 -d > /tmp/dataservex-static-html.zip && unzip -o /tmp/dataservex-static-html.zip -d public"}}
