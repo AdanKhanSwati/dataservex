@@ -1,11 +1,12 @@
-# KWS International — Telecom Sales Partner Website
+# KWS International production website
 
-Responsive production-ready portfolio website for KWS International, positioned for telecom distributor and master-dealer partnership applications including PerfectVision.
+Static production site for KWS International.
 
-## Business details
-- Email: info@kwsinternational.com
-- Address: 6272 Amboy Road, Staten Island, New York 10309
-- Focus: telecom sales, customer acquisition and partner programs
+## Vercel import settings
+- Branch: `kws-international-production-v2`
+- Root Directory: `kws-international`
+- Framework Preset: Other
+- Build Command: none
+- Output Directory: none
 
-## Deployment
-Static website. No build command is required for Vercel.
+The site contains its own local stylesheet, logo asset, robots.txt, sitemap.xml and clean-URL Vercel configuration.
